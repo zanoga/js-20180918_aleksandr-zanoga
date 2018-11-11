@@ -12,5 +12,4 @@ function pow (m, n) {
     return a;
 }
 
-
 pow(3, 4);
