@@ -1,5 +1,7 @@
 "use strict";
 
+describe("3-module-1-task", function() {
+
 let data = [
     {
         "balance": "$1,825.65",
@@ -275,8 +277,6 @@ let data = [
         "favoriteFruit": "strawberry"
     }
 ];
-
-describe("3-module-1-task", function() {
 
     it("проверяем моложе или равному 30 лет", function() {
         expect(showSalary(data, 30)).toEqual('Golden Branch, $1,825.65\nDuncan Randall, $1,490.15');
